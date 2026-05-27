@@ -151,7 +151,7 @@ df, metrics = load_model()
 st.markdown("""
 <div class="main-header">
   <h1>💎 Diamond Price Predictor</h1>
-  <p>Machine Learning · XGBoost · R² = {r2:.4f} · Trained on {n:,} diamonds</p>
+  <p>Machine Learning · R² = {r2:.4f} · Trained on {n:,} diamonds</p>
 </div>
 """.format(r2=metrics["r2"], n=metrics["n_train"]), unsafe_allow_html=True)
 
