@@ -297,7 +297,7 @@ st.markdown("---")
 st.markdown(
     "<div style='text-align:center;color:#aaa;font-size:0.85em'>"
     "💎 Diamond Price Predictor · XGBoost · scikit-learn · Streamlit · "
-    "Dhruv Nagpal & Spathneja · Chitkara University 2026"
+    "Dhruv Nagpal · Chitkara University"
     "</div>",
     unsafe_allow_html=True,
 )
